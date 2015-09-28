@@ -20,7 +20,7 @@ namespace Wox.Plugin.ChangeCase
             {
                 Title = key.ToLower(),
                 SubTitle = "Convert to Lowercase",
-                IcoPath = "",
+                IcoPath = "Images\\lowercase.png",
                 Action = e =>
                 {
                     // copy to clipboard after user select the item
@@ -34,7 +34,7 @@ namespace Wox.Plugin.ChangeCase
             {
                 Title = key.ToUpper(),
                 SubTitle = "Convert to Uppercase",
-                IcoPath = "",
+                IcoPath = "Images\\uppercase.png",
                 Action = e =>
                 {
                     // copy to clipboard after user select the item
