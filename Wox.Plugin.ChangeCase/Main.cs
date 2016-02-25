@@ -10,21 +10,21 @@ namespace Wox.Plugin.ChangeCase
         {
             List<Result> results = new List<Result>();
             var keyword = query.ActionParameters;
-            //  get the query
-            string key = "";
+            //  get the input entered by the user
+            string input = "";
             foreach (string param in keyword)
             {
-                   key += " " + param;
+                   input += " " + param;
             }
             results.Add(new Result()
             {
-                Title = key.ToLower(),
+                Title = input.ToLower(),
                 SubTitle = "Convert to Lowercase",
                 IcoPath = "Images\\lowercase.png",
                 Action = e =>
                 {
                     // copy to clipboard after user select the item
-                    Clipboard.SetText(key.ToLower());
+                    Clipboard.SetText(input.ToLower());
                     // return false to tell Wox don't hide query window, otherwise Wox will hide it automatically
                     return false;
                 }
@@ -32,13 +32,13 @@ namespace Wox.Plugin.ChangeCase
             
             results.Add(new Result()
             {
-                Title = key.ToUpper(),
+                Title = input.ToUpper(),
                 SubTitle = "Convert to Uppercase",
                 IcoPath = "Images\\uppercase.png",
                 Action = e =>
                 {
                     // copy to clipboard after user select the item
-                    Clipboard.SetText(key.ToUpper());
+                    Clipboard.SetText(input.ToUpper());
                     // return false to tell Wox don't hide query window, otherwise Wox will hide it automatically
                     return false;
                 }
