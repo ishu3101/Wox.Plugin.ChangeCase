@@ -4,7 +4,7 @@
     "Name":"Wox.Plugin.ChangeCase",
     "Description":"Change Case - uppercase, lowercase using C#",
     "Author":"shahisha",
-    "Version":"1.0",
+    "Version":"1.0.0",
     "Language":"csharp",
     "Website":"http://www.github.com/ishu3101/Wox.Plugin.ChangeCase",
     "ExecuteFileName":"Wox.Plugin.ChangeCase.dll",
