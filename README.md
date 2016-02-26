@@ -1,5 +1,5 @@
 # Wox.Plugin.ChangeCase
-Wox Plugin written in C# to change text to lowercase, uppercase 
+[Change Case](http://www.getwox.com/plugin/65) is a Wox Plugin written in C# to change text to lowercase, uppercase 
 
 ![alt text][Screenshot]
 
