@@ -1,8 +1,8 @@
 {
     "ID":"D2D2C23B084D411DB66FE0C79D6C2A6H",
     "ActionKeyword":"changecase",
-    "Name":"Wox.Plugin.ChangeCase",
-    "Description":"Change Case - uppercase, lowercase using C#",
+    "Name":"Change Case",
+    "Description":"Change text to lowercase, uppercase",
     "Author":"shahisha",
     "Version":"1.0.0",
     "Language":"csharp",
