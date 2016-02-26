@@ -4,7 +4,7 @@
     "Name":"Change Case",
     "Description":"Change text to lowercase, uppercase",
     "Author":"shahisha",
-    "Version":"1.0.0",
+    "Version":"1.0.1",
     "Language":"csharp",
     "Website":"http://www.github.com/ishu3101/Wox.Plugin.ChangeCase",
     "ExecuteFileName":"Wox.Plugin.ChangeCase.dll",
